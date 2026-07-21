@@ -1,0 +1,14 @@
+ul{
+    list-style-type: none;
+    padding-right: 40px;
+}
+#div1{
+    background-color: yellow;
+    text-decoration: line-through;
+}
+#div2{
+    background-color: rgb(66, 66, 255);
+}
+h1{
+    text-align: center;
+}
