@@ -1,0 +1,81 @@
+         *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #header, #footer{
+            background-color: rgb(219, 163, 60);
+            height: auto;
+        }
+        #main{
+            background-color: rgb(58, 58, 255);
+            height: 350px;
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThzvQUXfQjf7kGsDTNALVJ5xZv_BJ81U4qr8x59LG5hw&s=10");
+            background-position: center;
+        }
+        .header_list1{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        #header_h1{
+            display: inline-block;
+            padding: 15px;
+        }
+        #main_p1{
+            padding-top: 15px;
+            padding-left: 15px;
+            font-size: 20px;
+            font-style: italic;
+            box-sizing: content-box;
+            margin-bottom: 330px;
+        }
+        #header_navigation{
+            display: inline-block;
+            float: right;
+        }
+        .header_list1::before{
+            content: '\25CF';
+        }
+        .header_list1::before:hover{
+            color: rgb(29, 145, 246);
+        }
+        .header_list1:hover{
+            color: rgb(29, 145, 246);
+        }
+        .header_list1:active{
+            color: black
+        }
+        .header_list1::before:active{
+            color: black
+        }
+        #login{
+            background-color: yellow;
+            padding: 5px;
+            border: 3px solid black;
+            border-radius: 5px;
+        }
+        #login::before{
+            content: none;
+        }
+        #main_section1 h2{
+            text-align: center;
+            padding: 0px 0px 10px 0px;
+        }
+        #main_section1 p{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .main_section2_div{
+            display: inline-block;
+            width: 33%;
+            float: left;
+        }
+        #main_section2 h2{
+            text-align: center;
+            margin-bottom: 12px;
+        }
+        #main_section2 p{
+            text-align: center;
+            margin: 5px 5px;   
+        }

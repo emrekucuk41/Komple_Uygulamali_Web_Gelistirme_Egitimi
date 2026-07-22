@@ -1,0 +1,46 @@
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        #header, #footer{
+            background-color: rgb(219, 163, 60);
+            height: 150px;
+        }
+        #main{
+            background-color: rgb(58, 58, 255);
+            height: 250px;
+        }
+        .header_list1{
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 20px;
+        }
+        #header_h1{
+            display: inline-block;
+            padding: 15px;
+        }
+        #main_p1{
+            padding: 15px;
+            font-size: 20px;
+            font-style: italic;
+        }
+        #header_navigation{
+            display: inline-block;
+            float: right;
+
+        }
+        .header_list1::before{
+            content: '\25CF';
+        }
+        .header_list1::before:hover{
+            color: aliceblue;
+        }
+        .header_list1:hover{
+            color: aliceblue;
+        }
+        .header_list1:active{
+            color: black
+        }
+        .header_list1::before:active{
+            color: black
+        }
