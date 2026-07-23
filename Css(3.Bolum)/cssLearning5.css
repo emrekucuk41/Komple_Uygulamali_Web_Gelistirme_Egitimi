@@ -1,0 +1,29 @@
+header , footer{
+            background-color: rgb(166, 93, 234);
+            color: rgb(253, 253, 253);
+            padding: 15px;
+        }
+        aside{
+            width: 30%;
+            float: left;
+        }
+        aside ul{
+            padding: 0px;
+            list-style-type: none;
+        }
+        section{
+            width: 70%;
+            height: auto;
+            float: right;
+        }
+        .aside_list{
+            padding: 2px;
+            background-color: rgb(95, 244, 127);
+            margin: 10px 10px 10px 0px;
+        }
+        .aside_list:hover{
+            background-color: rgb(150, 244, 171) ;
+        }
+        main{
+            display: inline-block;
+        }
